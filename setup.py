@@ -11,7 +11,7 @@ __version__ = "0.0"
 __description__ = """Provide code for Geometry-Aware Fourier Neural Operator (Geo-FNO)"""
 
 if __name__ == "__main__":
-    with open("README.md") as f:
+    with open("readme.md") as f:
         long_description = f.read()
     setup(
         name="geofno",
